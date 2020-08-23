@@ -1,3 +1,14 @@
+当前版本有BUG无法编译，解决方法：
+$ sudo apt-get install build-essential libncurses5-dev
+$ git clone https://github.com/Whales/Cataclysm.git
+$ cd Cataclysm
+$ git checkout 16331b
+$ make clean
+$ make
+$ ./cataclysm
+
+will do, hopefully
+
 Cataclysm is a post-apocalyptic roguelike, set in the countryside of New England
 after a devastating plague of monsters and zombies.
 
